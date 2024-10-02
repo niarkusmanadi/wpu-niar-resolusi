@@ -1,0 +1,411 @@
+/* Global styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    background-color: aqua;
+}
+
+/* Header styles */
+header {
+    background-color: #556b2f;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;    
+    width: 100%;
+    z-index: 10;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+        
+}
+
+header nav ul li {
+    margin-right: 20px;
+   
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+ 
+}
+header img{
+	width: 100px;
+}
+/* Hero section styles */
+#hero {
+    background-image: url('model1/img/full/kevin.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+#hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+#hero button {
+	border: 0;
+	background-color: #556b2f;
+	padding : 10px;
+    border-radius: 5px;
+    color: white;
+    font-style:bold;
+}
+button:hover{
+	width: 180px;
+	font-size: 20px;
+    background-color: #556b2f;
+}
+/* About section styles */
+#beranda {
+    padding: 50px;
+    width: auto;
+    text-align: center;
+}
+
+#beranda h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.hikingcamping{
+    width:100%;
+}
+
+.hik1{
+    display: inline-block;
+    
+}
+
+.hiking{
+    background-color:#333;
+    border-radius: 10px;
+    width: 250px;
+    height: 200px;
+    display: inline-block;
+    margin: 0 30px;
+    background-image: url("https://images.unsplash.com/photo-1501554728187-ce583db33af7?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: center bottom;
+    background-size: cover;
+}
+.camping{
+    background-color:#333;
+    border-radius: 10px;
+    width: 250px;
+    height: 200px;
+    display: inline-block;
+    margin: 0 30px;
+    background-image: url("https://images.unsplash.com/photo-1504851149312-7a075b496cc7?q=80&w=1905&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: center bottom;
+    background-size: cover;
+}
+.hutanpantai{
+    display: inline-block;
+    width: auto;
+    
+}
+.hutan{
+    background-color: rgb(6, 39, 14);
+    width: 250px;
+    height: 400px;
+    display: inline-block;
+    margin: 0 50px;
+    border-radius: 10px;
+    background-image: url("https://images.unsplash.com/photo-1501555088652-021faa106b9b?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: center;
+}
+.pantai{
+    background-image: url("https://images.unsplash.com/photo-1502993100359-6e0cee23764d?q=80&w=1852&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-color: rgb(6, 39, 14);
+    width: 250px;
+    height: 400px;
+    display: inline-block;
+    margin: 0 50px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+}
+#paket{
+    width: 100%;
+    text-align: center;
+
+}
+.paket1{
+    width: 500px;
+    height: auto;
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    padding: 20px;
+}
+.paket2{
+    width: 500px;
+    height: auto;
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    padding: 20px;
+}
+.paket1 p{
+    position: relative;
+    right: 30px;
+    z-index: -1;
+    text-align: right;
+}
+.paket2 p{
+    position: relative;
+    left: 30px;
+    z-index: -1;
+    text-align: left;
+}
+.img1{
+    width: 250px;
+    height: 250px;
+    float: right;
+    background-color:#556b2f;
+    padding: 20px;
+}
+.img11{
+    background-image: url("model1/p_pinus.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+.img12{
+    background-image: url("model1/p_cemara.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+.img21{
+    background-image: url("model1/p_cendana.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+.img22{
+    background-image: url("model1/pktcookingset.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+.img2{
+    width: 250px;
+    height: 250px;
+    float: left;
+    background-color:#556b2f;
+    padding: 20px;
+}
+.chtadm1 button{
+    padding: 10px;
+    float:left;
+    border: 0;
+    z-index: -2;
+    background-color: rgb(181, 198, 118);
+}
+.chtadm2 button{
+    padding: 10px;
+    float:right;
+    border: 0;
+    z-index: -2;
+    background-color: rgb(181, 198, 118);
+}
+button{
+    padding: 10px;
+    border:0;
+}
+#pricelist {
+    padding: 50px;
+    min-height: 600px;
+}
+
+#pricelist h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.harga1{
+    width: auto;
+    height: auto;
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    font-size: 20px;
+    position: relative;
+    left: 150px;
+    z-index: -1;
+
+}
+.harga2{
+    width: auto;
+    height: auto;
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+    top: -29px;
+    z-index: -1;
+    font-size: 20px;
+    right: 100px;
+    top:70px;
+}
+.chtadm3 button{
+    margin-left: 45%;
+    top: 70px;
+    position: relative;
+    z-index: 0;
+    background-color: rgb(181, 198, 118);
+}
+.harga1 ul li, .harga2 ul li{
+    list-style: none;
+}
+.deskripsi{
+    width: 50px;
+    height: auto;
+    text-align: center;
+}
+.chatadmin button{
+    padding: 10px;
+    background-color: #556b2f;
+    border: 0;
+}
+
+#pricelist{
+    width: 100%;
+    margin: auto;
+}
+#pricelist h1{
+    position: relative;
+    top: 100px;
+    text-align: center;
+}
+#pricelist .harga1{
+    position: relative;
+    top: 100px;
+    width: 50%;
+    display: inline-block;
+}
+#term{
+    min-height: 700px;
+}
+#term h2, h1{
+    text-align: center;
+}
+.chtadm4 button{
+    font-size: 20px;
+    position: relative;
+    margin:0 45% ;
+    z-index: 0;
+    background-color: rgb(181, 198, 118);
+}
+#gallery{
+    min-height: 850px;
+}
+#gallery h1{
+    position: relative;
+    top: 10px;
+    margin: 30px 20px;
+}
+#gallery .row{
+    z-index: -1;
+    width: 80%;
+    position: relative;
+    top: 100px;
+    left: 11%;
+}
+.condition{
+    max-width: 900px;
+    margin-left: 10%;
+    line-height: 2;
+    font-size: 25px;
+
+}
+.chtadm5 button{
+    position: relative;
+    top: 130px;
+    margin: 50px 45%;
+    z-index: 0;
+    background-color: rgb(181, 198, 118);
+}
+#kontakkami{
+    position: relative;
+    top: 200px;
+    padding-top: 20px;
+    background-color: #556b2f;
+    max-height: 400px;
+    color: white;
+    z-index: -4;
+}
+#kontakkami ul li{
+    top: 70px;
+    display: block;
+    margin: 10px;
+    font-size: 20px;
+    position: relative;
+    width: 350px;
+    color: white;
+}
+#kontakkami iframe{
+    width: 600px;
+    height: 300px; 
+    position: relative;
+    left: 40%;
+    z-index: 3;
+    top: -260px;
+}
+#kontakkami ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    top: 200px;
+}
+
+/* ... kode CSS sebelumnya ... */
+
+@media (max-width: 768px) {
+    /* Gaya untuk tablet */
+    header nav ul {
+        flex-direction: column;
+        background-color: #f0f0f0;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100vh;
+        padding: 20px;
+        text-align: center;
+        transition: all 0.3s ease-in-out;
+        transform: translateY(-100%);
+    }
+
+    header nav ul.active {
+        transform: translateY(0);
+    }
+
+    /* ... gaya lainnya untuk tablet ... */
+}
+
+@media (max-width: 480px) {
+    /* Gaya untuk smartphone */
+    /* ... gaya lainnya untuk smartphone ... */
+}
