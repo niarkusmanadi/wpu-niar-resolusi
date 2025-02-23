@@ -1,5 +1,6 @@
 RENCANA KONTEN
 
-- Jvascript
+- Javascript
+1. framework
 - PHP Frameworks
 - Interview
