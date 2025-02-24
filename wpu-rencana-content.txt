@@ -3,6 +3,7 @@ RENCANA KONTEN
 - Javascript
 1. framework
 2. framework javascript
+- fundamental data dasar
 - fundamental
 - PHP Frameworks
 1. Lavarel
